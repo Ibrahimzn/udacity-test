@@ -6,7 +6,7 @@ orbs:
   build:
   docker:
     - image: "cimg/node:14.15"
- steps:
+  steps:
     - node/install
     - checkout
     - run:
